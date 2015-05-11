@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51B69391AB08E320090F9F0 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B69381AB08E320090F9F0 /* Quotes.swift */; };
+		F5D9515C1AAF5DDD0033DD86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9515B1AAF5DDD0033DD86 /* AppDelegate.swift */; };
+		F5D9515E1AAF5DDD0033DD86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9515D1AAF5DDD0033DD86 /* ViewController.swift */; };
+		F5D951611AAF5DDD0033DD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D9515F1AAF5DDD0033DD86 /* Main.storyboard */; };
+		F5D951631AAF5DDD0033DD86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D951621AAF5DDD0033DD86 /* Images.xcassets */; };
+		F5D951661AAF5DDD0033DD86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D951641AAF5DDD0033DD86 /* LaunchScreen.xib */; };
+		F5D951721AAF5DDD0033DD86 /* inspirusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D951711AAF5DDD0033DD86 /* inspirusTests.swift */; };
+		F5D951821AAF625C0033DD86 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9517C1AAF625C0033DD86 /* image1.png */; };
+		F5D951831AAF625C0033DD86 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9517D1AAF625C0033DD86 /* image2.png */; };
+		F5D951841AAF625C0033DD86 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9517E1AAF625C0033DD86 /* image3.png */; };
+		F5D951851AAF625C0033DD86 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9517F1AAF625C0033DD86 /* image4.png */; };
+		F5D951861AAF625C0033DD86 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D951801AAF625C0033DD86 /* image5.png */; };
+		F5D951871AAF625C0033DD86 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D951811AAF625C0033DD86 /* image6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D9516C1AAF5DDD0033DD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D9514E1AAF5DDD0033DD86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D951551AAF5DDD0033DD86;
+			remoteInfo = inspirus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51B69381AB08E320090F9F0 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		F5D951561AAF5DDD0033DD86 /* inspirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inspirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D9515A1AAF5DDD0033DD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D9515B1AAF5DDD0033DD86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D9515D1AAF5DDD0033DD86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D951601AAF5DDD0033DD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D951621AAF5DDD0033DD86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5D951651AAF5DDD0033DD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5D9516B1AAF5DDD0033DD86 /* inspirusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inspirusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D951701AAF5DDD0033DD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D951711AAF5DDD0033DD86 /* inspirusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inspirusTests.swift; sourceTree = "<group>"; };
+		F5D9517C1AAF625C0033DD86 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		F5D9517D1AAF625C0033DD86 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		F5D9517E1AAF625C0033DD86 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		F5D9517F1AAF625C0033DD86 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		F5D951801AAF625C0033DD86 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		F5D951811AAF625C0033DD86 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D951531AAF5DDD0033DD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D951681AAF5DDD0033DD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D9514D1AAF5DDD0033DD86 = {
+			isa = PBXGroup;
+			children = (
+				F5D951581AAF5DDD0033DD86 /* inspirus */,
+				F5D9516E1AAF5DDD0033DD86 /* inspirusTests */,
+				F5D951571AAF5DDD0033DD86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D951571AAF5DDD0033DD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D951561AAF5DDD0033DD86 /* inspirus.app */,
+				F5D9516B1AAF5DDD0033DD86 /* inspirusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D951581AAF5DDD0033DD86 /* inspirus */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9517B1AAF625C0033DD86 /* Images */,
+				F5D9515D1AAF5DDD0033DD86 /* ViewController.swift */,
+				F5D9515F1AAF5DDD0033DD86 /* Main.storyboard */,
+				F51B69381AB08E320090F9F0 /* Quotes.swift */,
+				F5D951621AAF5DDD0033DD86 /* Images.xcassets */,
+				F5D951591AAF5DDD0033DD86 /* Supporting Files */,
+			);
+			path = inspirus;
+			sourceTree = "<group>";
+		};
+		F5D951591AAF5DDD0033DD86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D951641AAF5DDD0033DD86 /* LaunchScreen.xib */,
+				F5D9515B1AAF5DDD0033DD86 /* AppDelegate.swift */,
+				F5D9515A1AAF5DDD0033DD86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D9516E1AAF5DDD0033DD86 /* inspirusTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D951711AAF5DDD0033DD86 /* inspirusTests.swift */,
+				F5D9516F1AAF5DDD0033DD86 /* Supporting Files */,
+			);
+			path = inspirusTests;
+			sourceTree = "<group>";
+		};
+		F5D9516F1AAF5DDD0033DD86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D951701AAF5DDD0033DD86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D9517B1AAF625C0033DD86 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9517C1AAF625C0033DD86 /* image1.png */,
+				F5D9517D1AAF625C0033DD86 /* image2.png */,
+				F5D9517E1AAF625C0033DD86 /* image3.png */,
+				F5D9517F1AAF625C0033DD86 /* image4.png */,
+				F5D951801AAF625C0033DD86 /* image5.png */,
+				F5D951811AAF625C0033DD86 /* image6.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D951551AAF5DDD0033DD86 /* inspirus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D951751AAF5DDD0033DD86 /* Build configuration list for PBXNativeTarget "inspirus" */;
+			buildPhases = (
+				F5D951521AAF5DDD0033DD86 /* Sources */,
+				F5D951531AAF5DDD0033DD86 /* Frameworks */,
+				F5D951541AAF5DDD0033DD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inspirus;
+			productName = inspirus;
+			productReference = F5D951561AAF5DDD0033DD86 /* inspirus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D9516A1AAF5DDD0033DD86 /* inspirusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D951781AAF5DDD0033DD86 /* Build configuration list for PBXNativeTarget "inspirusTests" */;
+			buildPhases = (
+				F5D951671AAF5DDD0033DD86 /* Sources */,
+				F5D951681AAF5DDD0033DD86 /* Frameworks */,
+				F5D951691AAF5DDD0033DD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D9516D1AAF5DDD0033DD86 /* PBXTargetDependency */,
+			);
+			name = inspirusTests;
+			productName = inspirusTests;
+			productReference = F5D9516B1AAF5DDD0033DD86 /* inspirusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D9514E1AAF5DDD0033DD86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Duc Tran";
+				TargetAttributes = {
+					F5D951551AAF5DDD0033DD86 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F5D9516A1AAF5DDD0033DD86 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F5D951551AAF5DDD0033DD86;
+					};
+				};
+			};
+			buildConfigurationList = F5D951511AAF5DDD0033DD86 /* Build configuration list for PBXProject "inspirus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D9514D1AAF5DDD0033DD86;
+			productRefGroup = F5D951571AAF5DDD0033DD86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D951551AAF5DDD0033DD86 /* inspirus */,
+				F5D9516A1AAF5DDD0033DD86 /* inspirusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D951541AAF5DDD0033DD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D951611AAF5DDD0033DD86 /* Main.storyboard in Resources */,
+				F5D951871AAF625C0033DD86 /* image6.png in Resources */,
+				F5D951841AAF625C0033DD86 /* image3.png in Resources */,
+				F5D951831AAF625C0033DD86 /* image2.png in Resources */,
+				F5D951821AAF625C0033DD86 /* image1.png in Resources */,
+				F5D951851AAF625C0033DD86 /* image4.png in Resources */,
+				F5D951861AAF625C0033DD86 /* image5.png in Resources */,
+				F5D951661AAF5DDD0033DD86 /* LaunchScreen.xib in Resources */,
+				F5D951631AAF5DDD0033DD86 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D951691AAF5DDD0033DD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D951521AAF5DDD0033DD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D9515E1AAF5DDD0033DD86 /* ViewController.swift in Sources */,
+				F5D9515C1AAF5DDD0033DD86 /* AppDelegate.swift in Sources */,
+				F51B69391AB08E320090F9F0 /* Quotes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D951671AAF5DDD0033DD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D951721AAF5DDD0033DD86 /* inspirusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D9516D1AAF5DDD0033DD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D951551AAF5DDD0033DD86 /* inspirus */;
+			targetProxy = F5D9516C1AAF5DDD0033DD86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D9515F1AAF5DDD0033DD86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D951601AAF5DDD0033DD86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D951641AAF5DDD0033DD86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D951651AAF5DDD0033DD86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D951731AAF5DDD0033DD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D951741AAF5DDD0033DD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D951761AAF5DDD0033DD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = inspirus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D951771AAF5DDD0033DD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = inspirus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5D951791AAF5DDD0033DD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = inspirusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inspirus.app/inspirus";
+			};
+			name = Debug;
+		};
+		F5D9517A1AAF5DDD0033DD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = inspirusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inspirus.app/inspirus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D951511AAF5DDD0033DD86 /* Build configuration list for PBXProject "inspirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D951731AAF5DDD0033DD86 /* Debug */,
+				F5D951741AAF5DDD0033DD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D951751AAF5DDD0033DD86 /* Build configuration list for PBXNativeTarget "inspirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D951761AAF5DDD0033DD86 /* Debug */,
+				F5D951771AAF5DDD0033DD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D951781AAF5DDD0033DD86 /* Build configuration list for PBXNativeTarget "inspirusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D951791AAF5DDD0033DD86 /* Debug */,
+				F5D9517A1AAF5DDD0033DD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D9514E1AAF5DDD0033DD86 /* Project object */;
+}
